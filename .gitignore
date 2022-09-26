@@ -135,4 +135,5 @@ dmypy.json
 # data and models
 data/MFTC/*
 data/lexicons/*
+data/comparisons/*
 trained_models/*
