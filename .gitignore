@@ -109,6 +109,10 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+.tomea-env
+
+# vim
+*.un~
 
 # Spyder project settings
 .spyderproject
@@ -127,3 +131,8 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# data and models
+data/MFTC/*
+data/lexicons/*
+trained_models/*
