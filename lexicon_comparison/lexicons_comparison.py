@@ -136,7 +136,7 @@ def parse_args(args):
 	parser = argparse.ArgumentParser(description='Group lemmatized SHAP lexicons.')
 	parser.add_argument('--input-folder',  help='Folder containing the domain folders with lemmatized lexicons.', type=str)
 	parser.add_argument('--output-folder', help='Destination folder.', type=str)
-	parser.add_argument('--normalization', help='Type of normalization on the words distance.', default='length', type=str)
+	parser.add_argument('--normalization', help='Type of normalization on the words distance (length or sqrt).', default='length', type=str)
 
 	return parser.parse_args(args)
 
